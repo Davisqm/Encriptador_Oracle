@@ -1,0 +1,113 @@
+main{
+    display:flex;
+}
+img{
+    width:5%;
+}
+h1{ 
+    font-size:30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 45px;
+    width: 11.5%;
+    color:rgb(164, 139, 11);
+    /*-webkit-box-shadow: 6px 5px 24px #bfb00c;
+    -moz-box-shadow: 6px 5px 24px #bfb00c;
+    box-shadow: 6px 5px 24px #bfb00c;*/
+}
+
+body{
+    height: 800px;
+    background: url(imagen/universo-1.webp);
+    background-size: auto;
+    background-size: 30rem;
+    background-repeat:repeat;
+  
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    border-radius: 15px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagen/encriptar-telefono-movil.jpg");
+    background-repeat: repeat;
+    background-position: 18px;
+    background-size: 313px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 5px 24px #bfb00c;
+    -moz-box-shadow: 6px 5px 24px #bfb00c;
+    box-shadow: 6px 5px 24px #bfb00c;
+
+}
+
+.copiar {
+    color:rgb(150, 96, 14);
+    text-shadow: 2px 1px  #070b1b;
+    -webkit-box-shadow: 6px 5px 24px #bfb00c;
+    -moz-box-shadow: 6px 5px 24px #bfb00c;
+    box-shadow: 6px 5px 24px #bfb00c;
+    border-radius: 7.5px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius:10px;
+}
+.encriptar{
+    color:rgb(150, 96, 14);
+    text-shadow: 2px 1px  #070b1b;
+    -webkit-box-shadow: 6px 5px 24px #bfb00c;
+    -moz-box-shadow: 6px 5px 24px #bfb00c;
+    box-shadow: 6px 5px 24px #bfb00c;
+    border-radius: 7.5px
+
+}
+.desencriptar{
+    color:rgb(150, 96, 14);
+    text-shadow: 2px 1px 1px #070b1b;
+    -webkit-box-shadow: 6px 5px 24px #bfb00c;
+    -moz-box-shadow: 6px 5px 24px #bfb00c;
+    box-shadow: 6px 5px 24px #bfb00c;
+    border-radius: 7.5px
+}
+.botones:hover {
+   
+    margin-top: 20px;
+    border-radius:15px;
+}
+
+.encriptar:hover {
+    background-color: rgb(11, 155, 155);
+    border-radius: 20px;
+
+}
+
+.desencriptar:hover {
+    background-color:rgb(11, 155, 155);
+   border-radius: 20px;
+}
+
+.informacion {
+    font-family:comic;
+    font-size:30px;
+    color: rgb(59, 200, 7);
+    text-align: center;
+}
