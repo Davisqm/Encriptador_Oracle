@@ -2,15 +2,15 @@ main{
     display:flex;
 }
 img{
-    width:5%;
+    width:6%;
 }
 h1{ 
-    font-size:30px;
+    font-size:35px;
     font-weight: bolder;
     border-radius: 10px;
     height: 45px;
     width: 11.5%;
-    color:rgb(164, 139, 11);
+    color: crimson;
     /*-webkit-box-shadow: 6px 5px 24px #bfb00c;
     -moz-box-shadow: 6px 5px 24px #bfb00c;
     box-shadow: 6px 5px 24px #bfb00c;*/
@@ -18,7 +18,7 @@ h1{
 
 body{
     height: 800px;
-    background: url(imagen/universo-1.webp);
+    background: url(imagen/encriptado.jpg);
     background-size: auto;
     background-size: 30rem;
     background-repeat:repeat;
@@ -48,46 +48,52 @@ main {
     position: relative;
     margin-top: 20px;
     margin-left: 90px;
-    background-image: url("imagen/encriptar-telefono-movil.jpg");
+    background-image: url("imagen/criptografia-metodos-cifrado-hashing-empresas-pci-seguridad.jpg");
     background-repeat: repeat;
     background-position: 18px;
     background-size: 313px;
-    border-radius: 10px;
-    -webkit-box-shadow: 6px 5px 24px #bfb00c;
-    -moz-box-shadow: 6px 5px 24px #bfb00c;
-    box-shadow: 6px 5px 24px #bfb00c;
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 5px 24px black;
+    -moz-box-shadow: 6px 5px 24px black;
+    box-shadow: 6px 5px 24px black;
 
 }
 
 .copiar {
-    color:rgb(150, 96, 14);
+    color: white;
     text-shadow: 2px 1px  #070b1b;
-    -webkit-box-shadow: 6px 5px 24px #bfb00c;
-    -moz-box-shadow: 6px 5px 24px #bfb00c;
-    box-shadow: 6px 5px 24px #bfb00c;
+    -webkit-box-shadow: 6px 5px 24px ;
+    -moz-box-shadow: 6px 5px 24px ;
+    box-shadow: 6px 5px 24px gray;
     border-radius: 7.5px;
     position: relative;
     margin-top: 20px;
     margin-left: 205px;
     border-radius:10px;
+    background-color: #070b1b;
 }
+
 .encriptar{
-    color:rgb(150, 96, 14);
+    color: red;
     text-shadow: 2px 1px  #070b1b;
-    -webkit-box-shadow: 6px 5px 24px #bfb00c;
-    -moz-box-shadow: 6px 5px 24px #bfb00c;
-    box-shadow: 6px 5px 24px #bfb00c;
-    border-radius: 7.5px
+    -webkit-box-shadow: 6px 5px 24px ;
+    -moz-box-shadow: 6px 5px 24px ;
+    box-shadow: 6px 5px 24px crimson;
+    border-radius: 7.5px;
+    background-color: black;
 
 }
+
 .desencriptar{
-    color:rgb(150, 96, 14);
+    color:rgb(255, 255, 255);
     text-shadow: 2px 1px 1px #070b1b;
-    -webkit-box-shadow: 6px 5px 24px #bfb00c;
-    -moz-box-shadow: 6px 5px 24px #bfb00c;
-    box-shadow: 6px 5px 24px #bfb00c;
-    border-radius: 7.5px
+    -webkit-box-shadow: 6px 5px 24px ;
+    -moz-box-shadow: 6px 5px 24px ;
+    box-shadow: 6px 5px 24px gray;
+    border-radius: 7.5px;
+    background-color: black;
 }
+
 .botones:hover {
    
     margin-top: 20px;
@@ -95,14 +101,30 @@ main {
 }
 
 .encriptar:hover {
-    background-color: rgb(11, 155, 155);
+    background-color: rgb(105, 105, 105);
     border-radius: 20px;
 
 }
 
 .desencriptar:hover {
-    background-color:rgb(11, 155, 155);
-   border-radius: 20px;
+    background-color:rgb(105, 105, 105);
+    border-radius: 20px;
+}
+
+.copiar:hover{
+    background-color: #696969;
+}
+
+.encriptar:active{
+    background-color: #8b0000;
+}
+
+.desencriptar:active{
+    background-color: rgb(139, 0, 0);
+}
+
+.copiar:active{
+    background-color: #8b0000;
 }
 
 .informacion {
